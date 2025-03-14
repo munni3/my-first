@@ -49,7 +49,7 @@ nav a {
     border-radius: 5px;
 }
 
-.hero {
+.her {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,15 +57,15 @@ nav a {
     text-align: left;
 }
 
-.hero-text h1 {
+.her-text h1 {
     font-size: 36px;
 }
 
-.hero-text span {
+.her-text span {
     color: #2196f3; 
 }
 
-.hero-image img {
+.her-image img {
     width: 200px;
     border-radius: 50%;
 }
@@ -170,12 +170,12 @@ button:hover, .btn:hover {
 }
 
 @media (max-width: 768px) {
-    .hero, .resume-grid, .contact {
+    .her, .resume-grid, .contact {
         flex-direction: column;
         text-align: center;
     }
 
-    .hero-image img {
+    .her-image img {
         width: 150px;
     }
 
